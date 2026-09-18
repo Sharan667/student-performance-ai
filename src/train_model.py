@@ -8,7 +8,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 
-from data_preprocessing import prepare_data
+from src.data_preprocessing import prepare_data
 
 
 ROOT = Path(__file__).resolve().parents[1]
